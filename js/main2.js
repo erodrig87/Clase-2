@@ -17,9 +17,14 @@ let nombre;
 let edad;
 let flag_edad;
 
-nombre=prompt("ingrese su nombre");
-edad=parseInt(prompt("ingrese su edad"));
+//nombre=prompt("ingrese su nombre");
+//edad=parseInt(prompt("ingrese su edad"));
 
-(edad > 17) ? flag_edad = "mayor" : (edad<13) ? flag_edad = "niño/a" : flag_edad= "adoslecente";
+if(2>"1")
+    alert("verdadero");
+    else
+    alert("falso");
 
-alert("Hola " + nombre + ", tu eres " + flag_edad + " y tienes "+edad+" años de edad");
+//(edad > 17) ? flag_edad = "mayor" : (edad<13) ? flag_edad = "niño/a" : flag_edad= "adoslecente";
+
+//alert("Hola " + nombre + ", tu eres " + flag_edad + " y tienes "+edad+" años de edad");
